@@ -9,7 +9,7 @@
   src: url("fonts/SFCompactDisplay-Heavy.ttf"); /* IE9 Compat Modes */
 }
 
-h1, h2, p{
+h1, h2, h3, p{
   color: #515151;
 }
 
@@ -32,7 +32,7 @@ font-family: "Sanfranbold";
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
   margin: 4px 2px;
   cursor: pointer;
 
@@ -168,7 +168,7 @@ body{
   }
 }
 .landing-container03 {
-  width: 79px;
+  /* width: 79px; */
   display: flex;
   justify-content: space-between;
 }
@@ -321,7 +321,7 @@ body{
   }
 }
 .landing-container09 {
-  width: 100%;
+  width: 800px;
   height: auto;
   display: flex;
   max-width: 1400px;
