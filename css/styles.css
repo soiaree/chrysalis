@@ -9,7 +9,7 @@
   src: url("fonts/SFCompactDisplay-Heavy.ttf"); /* IE9 Compat Modes */
 }
 
-h1, h2, h3, p{
+h1, h2, h3, p, ul{
   color: #515151;
 }
 
@@ -153,6 +153,7 @@ body{
   padding-right: 0;
   letter-spacing: 1.5;
   padding-bottom: 0;
+  font-size: 20px;
 }
 @media(max-width: 479px) {
   .landing-text {
@@ -171,7 +172,7 @@ body{
   /* width: 79px; */
   display: flex;
   justify-content: space-between;
-} 
+}
 @media(max-width: 991px) {
   .landing-container03 {
     width: 70%;
@@ -260,7 +261,8 @@ body{
   display: inline-block;
   font-size: 3em;
   margin-top: -100px;
-  margin-bottom: 0;
+  margin-bottom: 14px;
+  margin-left: 30px;
 }
 @media(max-width: 991px) {
   .landing-text2 {
@@ -285,7 +287,7 @@ body{
   width: 50%;
   display: inline-block;
   font-size: 1em;
-  margin-left: 10px;
+  margin-left: 30px;
   margin-bottom: 30px;
 }
 @media(max-width: 767px) {
@@ -304,7 +306,7 @@ body{
 .landing-expertise-section {
   width: 100%;
   display: flex;
-  padding: 100px;
+  /* padding: 100px; */
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
