@@ -171,7 +171,7 @@ body{
   /* width: 79px; */
   display: flex;
   justify-content: space-between;
-}
+} 
 @media(max-width: 991px) {
   .landing-container03 {
     width: 70%;
