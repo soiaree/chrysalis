@@ -14,11 +14,29 @@ h1, h2, p{
 }
 
 
+h2{
+  letter-spacing: 1.7px;
+}
+
+
 h1{
 font-family: "Sanfranbold";
 }
 
 
+.button {
+  background-color: #D09370;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
 /* h2{
   text-align: center;
 } */
@@ -76,7 +94,7 @@ body{
 }
 .landing-topcontainer {
   width: 100%;
-  max-width: 1400px;
+  /* max-width: 1400px; */
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
@@ -363,7 +381,7 @@ body{
 }
 .landing-heading1 {
   display: flex;
-  font-size: 24px;
+  font-size: 44px;
   text-align: 'center';
 }
 @media(max-width: 991px) {
