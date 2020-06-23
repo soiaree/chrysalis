@@ -1,3 +1,10 @@
+body, html{
+    margin:0;
+    padding:0;
+}
+
+
+
 @font-face {
   font-family: "Sanfran";
   src: url("fonts/SFCompactDisplay-Regular.ttf"); /* IE9 Compat Modes */
@@ -9,6 +16,9 @@
   src: url("fonts/SFCompactDisplay-Heavy.ttf"); /* IE9 Compat Modes */
 }
 
+
+
+
 h1, h2, h3, p, ul{
   color: #515151;
 }
@@ -19,6 +29,12 @@ h2{
   text-align: center;
 }
 
+
+h3{
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: -12px;
+}
 
 h1{
 font-family: "Sanfranbold";
@@ -36,6 +52,7 @@ font-family: "Sanfranbold";
   font-size: 12px;
   margin: 4px 2px;
   cursor: pointer;
+  letter-spacing: 2px;
 
 }
 /* h2{
@@ -491,6 +508,7 @@ body{
   font-weight: bolder;
   line-height: 1.5;
   margin-bottom: 15px;
+
 }
 @media(max-width: 767px) {
   .footer-text {
@@ -500,6 +518,8 @@ body{
 .footer-text1 {
   font-size: 14px;
   font-weight: lighter;
+  color:white;
+  text-decoration: none;
 }
 @media(max-width: 767px) {
   .footer-text1 {
