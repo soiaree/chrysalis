@@ -16,6 +16,7 @@ h1, h2, h3, p, ul{
 
 h2{
   letter-spacing: 1.7px;
+  text-align: center;
 }
 
 
@@ -346,7 +347,7 @@ body{
   display: flex;
   align-self: center;
   align-items: center;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   justify-content: space-around;
 }
 @media(max-width: 479px) {
@@ -401,8 +402,13 @@ body{
   color: #6d6d6d;
   text-align: center;
   line-height: 1.5;
+  width:150px;
 }
 
+
+.section{
+  padding-bottom: 50px;
+}
 
 
 /* FOOTER  */
