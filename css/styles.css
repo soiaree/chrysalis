@@ -18,6 +18,12 @@ body, html{
 
 
 
+@font-face {
+  font-family: "Avenir";
+  src: url("fonts/AvenirLTStd-Book.otf"); /* IE9 Compat Modes */
+}
+
+
 
 h1, h2, h3, p, ul{
   color: #515151;
